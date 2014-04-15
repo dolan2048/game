@@ -71,9 +71,11 @@
   }
 }
 
-// Appearance
-@mixin appearance($args...) {
-  -webkit-appearance: $args;
-  -moz-appearance: $args;
-  appearance: $args;
+// Clearfix
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
 }
