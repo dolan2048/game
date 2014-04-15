@@ -16,9 +16,10 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
+  margin-top:20px;
   display: block;
   float: left; }
 
@@ -90,10 +91,10 @@ h1.title {
     animation-fill-mode: both; }
 
 .score-container:after {
-  content: "Score"; }
+  content: "Socr"; }
 
 .best-container:after {
-  content: "Best"; }
+  content: "Bst"; }
 
 p {
   margin-top: 0;
@@ -483,8 +484,11 @@ background-size:cover;
 .above-game:after {
   content: "";
   display: block;
-  clear: both; }
-
+  clear: both; 
+  }
+.above-game{
+	margin-top:30px;
+}
 .game-intro {
   float: left;
   line-height: 42px;
