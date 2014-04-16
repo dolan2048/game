@@ -1,25 +1,21 @@
 @import url(fonts/clear-sans.css);
 html, body {
-  margin: 0;
-  padding: 0;
-  background0: red;
-	background0:url('img/dolan_background4.jpg') no-repeat top left;;
-	background-repeat0:no-repeat;
-	background-size0:cover;
-	
-	background: url('img/dolan_background4.jpg'), url('img/dolan_background_0.jpg');
-background-position: left top, right top;
-background-repeat: no-repeat, repeat;
-	
-  color: #FFFF00;
-  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 18px; }
+   margin: 0;
+	padding: 0;
+	background: url('img/dolan_background4.jpg') 50%, url('img/dolan_background_0.jpg');
+		background-size:20%,100px;
+	background-position: left , right top;
+	background-repeat: no-repeat, repeat;
+		
+	  color: #FFFF00;
+	  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+	  font-size: 18px; }
 
 body {
   margin: 80px 0; }
 
 .wrapper0{
-padding-top:30px;
+	padding-top:30px;
 	margin-top:-80px;
 	margin-bottom:0px;
 	padding-bottom0:50px;
@@ -72,8 +68,9 @@ h1.title {
     top: -50px;
     opacity: 0; } }
 .scores-container {
-  float: right;
-  text-align: right; }
+	clear:both;
+	text-align:center;
+  text-align0: right; }
 
 .score-container, .best-container {
   position: relative;
