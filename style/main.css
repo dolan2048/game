@@ -6,7 +6,7 @@ html, body {
 	background:url('img/dolan_background.jpg');
 	background-repeat:no-repeat;
 	background-size0:cover;
-  color: #776e65;
+  color: #FFFF00;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -64,7 +64,7 @@ h1.title {
   line-height: 47px;
   font-weight: bold;
   border-radius: 3px;
-  color: white;
+  color: cyan;
   margin-top: 8px;
   text-align: center; }
   .score-container:after, .best-container:after {
@@ -156,7 +156,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #00FFFF;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -227,7 +227,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(238, 228, 218, 0.6); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -535,7 +535,7 @@ hr {
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: cyan;
   height: 40px;
   line-height: 42px;
   display: block;
