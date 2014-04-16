@@ -2,16 +2,37 @@
 html, body {
   margin: 0;
   padding: 0;
-  background0: #faf8ef;
-	background:url('img/dolan_background.jpg');
-	background-repeat:no-repeat;
+  background0: red;
+	background0:url('img/dolan_background4.jpg') no-repeat top left;;
+	background-repeat0:no-repeat;
 	background-size0:cover;
+	
+	background: url('img/dolan_background4.jpg'), url('img/dolan_background_0.jpg');
+background-position: left top, right top;
+background-repeat: no-repeat, repeat;
+	
   color: #FFFF00;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
 body {
   margin: 80px 0; }
+
+.wrapper0{
+padding-top:30px;
+	margin-top:-80px;
+	margin-bottom:0px;
+	padding-bottom0:50px;
+	height:100%;
+	height0:1800px;
+	background:red;
+}
+
+.footer0{
+	height:100px;
+	width:100%;
+	background:red;
+} 
 
 .heading:after {
   content: "";
@@ -101,7 +122,7 @@ h1.title {
 
 p {
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom0: 10px;
   line-height: 1.65; }
 
 a {
@@ -117,14 +138,17 @@ hr {
   border: none;
   border-bottom: 1px solid #d8d4d0;
   margin-top: 20px;
-  margin-bottom: 30px; }
+  margin-bottom0: 30px; }
 
 .container {
 
-
+padding-bottom0:50px;
 
   width: 500px;
-  margin: 0 auto; }
+  margin: 0 auto; 
+  margin-bottom:0px;
+  
+  }
 
 @-webkit-keyframes fade-in {
   0% {
@@ -156,7 +180,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #00FFFF;
+  background: #506EEB;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -559,7 +583,9 @@ hr {
 
   .container {
     width: 280px;
-    margin: 0 auto; }
+    margin: 0 auto; 
+	margin-bottom:0px;
+	}
 
   .score-container, .best-container {
     margin-top: 0;
