@@ -2,7 +2,10 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
+  background0: #faf8ef;
+	background:url('img/dolan_background.jpg');
+	background-repeat:no-repeat;
+	background-size0:cover;
   color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
@@ -117,6 +120,9 @@ hr {
   margin-bottom: 30px; }
 
 .container {
+
+
+
   width: 500px;
   margin: 0 auto; }
 
